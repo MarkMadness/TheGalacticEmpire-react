@@ -1,0 +1,51 @@
+#footer-container {
+    height: 220px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    border-top: 2px solid white;
+    margin: 0;
+}
+
+.nav-container {
+    margin: 60px 20px 60px;
+    font-size: 18pt;
+    display: inline-block;
+}
+
+/* .nav-footer{
+    display: block;
+} */
+
+/* .footer-links::before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(255,255,255,0.3);
+    margin: 0 15px 0 5px;
+    pointer-events: none;
+} */
+
+.project-notes{
+    padding: 10px;
+}
+
+
+
+
+
+
+/* ====Extra Code from earlier method of footer*/
+
+/* .nav-table{
+    display: table;
+    margin: auto;
+}
+
+ul#horizontal-list{
+    list-style: none;
+}
+
+ul#horizontal-list li{
+    display: inline;
+} */
