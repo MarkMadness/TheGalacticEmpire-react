@@ -10,6 +10,7 @@ function MainHeader() {
                 <div className='dropdown'>
                     <button className='dropbtn'>Military</button>
                     <div className='dropdown-content'>
+                        <a href='./enlist'>Enlist</a>
                         <a href='./militaryabout'>About</a>
                         <a href='./militaryoccupations'>Occupations</a>
                         <a href='./militaryapplications'>Applications</a>

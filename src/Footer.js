@@ -6,6 +6,7 @@ function Footer() {
         <div id='footer-container'>
             <div className='nav-container'>
                 <nav className='nav-footer'>
+                    <a href='./footerteam'>Leadership</a>
                     <a href='./footercareer'>Non-Military Career</a>
                     <a href='./footersupport'>Support</a>
                     <a href='./footercontact'>Contact</a>
