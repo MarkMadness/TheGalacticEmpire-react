@@ -29,19 +29,46 @@ function Home() {
                     <img className='enlist-img' src='./images/enlist2.jpg' alt=''></img>
                 </div>
                 <div className='enlist-center'>
-
+                    <div className='enlist-content'>
+                        <h1>Enlist</h1>
+                        <p className='enlist-text'>Ready to join the greatest military the galaxy has ever known. Click on the 
+                            button to begin your application for the best military experience in existence!
+                        </p>
+                        <button type='button'>Start your Application</button>
+                        {/* <form>
+                            <label for='firstName' className='label-enlist'>First Name:</label>
+                            <input type='text' name='firstName' className='input-enlist'></input><br />
+                            <label for='firstName'className='label-enlist'>Last Name:</label>
+                            <input type='text' name='firstName'className='input-enlist'></input><br />
+                            <label for='firstName'className='label-enlist'>Email:</label>
+                            <input type='text' name='firstName'className='input-enlist'></input><br />
+                            <label for='firstName'className='label-enlist'>Phone:</label>
+                            <input type='text' name='firstName'className='input-enlist'></input><br />
+                            <input type="submit" value="Submit">Submit Application</input>
+                        </form> */}
+                    </div>
                 </div>
                 <div className='enlist-right'>
-                    <img className='enlist-img' src='./images/enlist1.jpg' alt=''></img>
+                    <img className='enlist-img-right' src='./images/enlist1.jpg' alt=''></img>
                 </div>
             </div>
 
             <div id='report'>
                 <div className='report-left'>
-                    <img className='report-img' src='./images/reportsedition.jpg' alt=''></img>
+                    <img className='report-img' src='./images/banner3.jpg' alt='Imperial Banner'></img>
                 </div>
-                <div classNAme='report-right'>
-
+                <div className='report-center-img'>
+                    <img className='report-img sedition-img' src='./images/reportsedition.jpg' alt=''></img>
+                </div>
+                <div className='report-center-content'>
+                    <p className='report-text'>Ensure the streets of your city remain safe from crime and rebel
+                    terrorists. Report any and all suspicious activity simply by clicking the button below and 
+                    make your Emperor proud!</p>
+                    <button type='button' className='report-button'>Report</button>
+                </div>
+                
+                <div className='report-right'>
+                    <img className='report-img' src='./images/banner3.jpg' alt='Imperial Banner'></img>
                 </div>
             </div>
 
