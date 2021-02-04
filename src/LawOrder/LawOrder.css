@@ -1,0 +1,15 @@
+/* LawOrderBounty */
+
+.bounty-board-message{
+    font-size: 18pt;
+}
+
+#bounty-board{
+    display: grid;
+    margin-left: 100px;
+    margin-right: auto;
+    grid-template-columns: repeat(7, 200px);
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-items: center; /* centers the grid */
+}

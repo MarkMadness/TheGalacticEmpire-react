@@ -3,19 +3,19 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from './Home';
 import News from './News';
-import MilitaryAbout from './MilitaryAbout';
-import MilitaryOccupations from './MilitaryOccupations'
-import MilitaryApplications from './MilitaryApplications';
-import MilitaryWeapons from './MilitaryWeapons';
-import GalacticNetworkAbout from './GalacticNetworkAbout';
-import GalacticNetworkGalaxyMap from './GalacticNetworkGalaxyMap';
-import GalacticNetworkHistory from'./GalacticNetworkHistory';
-import GalacticNetworkGovernment from './GalacticNetworkGovernment';
-import GalacticNetworkMarket from'./GalacticNetworkMarket';
-import LawOrderRebels from './LawOrderRebels';
-import LawOrderBounty from './LawOrderBounty';
-import LawOrderCode from './LawOrderCode';
-import LawOrderExtra from './LawOrderExtra';
+import MilitaryAbout from './Military/MilitaryAbout';
+import MilitaryOccupations from './Military/MilitaryOccupations'
+import MilitaryApplications from './Military/MilitaryApplications';
+import MilitaryWeapons from './Military/MilitaryWeapons';
+import GalacticNetworkAbout from './GalacticNetwork/GalacticNetworkAbout';
+import GalacticNetworkGalaxyMap from './GalacticNetwork/GalacticNetworkGalaxyMap';
+import GalacticNetworkHistory from'./GalacticNetwork/GalacticNetworkHistory';
+import GalacticNetworkGovernment from './GalacticNetwork/GalacticNetworkGovernment';
+import GalacticNetworkMarket from'./GalacticNetwork/GalacticNetworkMarket';
+import LawOrderRebels from './LawOrder/LawOrderRebels';
+import LawOrderBounty from './LawOrder/LawOrderBounty';
+import LawOrderCode from './LawOrder/LawOrderCode';
+import LawOrderExtra from './LawOrder/LawOrderExtra';
 import Store from './Store';
 
 function App() {
