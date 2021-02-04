@@ -22,5 +22,9 @@ For the MainNavbar Component, which is meant for all first level pages throughou
 
 The Footer Component hold a nav menu for the less popular menues of visitors of the Galactic Empire. It contains a single navbar menu and a short few sentences at the bottom talking about the project. The CSS inherits the styling of the MainNavbar Component keeping consistency of style design.
 
+## Law and Order - Bounty Board
 
+The next section I worked on after the homepage was Law and Order. Starting off with the Bounty Board, I had the idea that the Empire would use bounty boards as a way to encourage citizens who encountered those who are wanted to report them to the authorities for a great reward. Another measure to enforce order in the galaxy. The image below is the first concept of the layout of the page where the bounties will be on display along with information about the money reward and a small synopsis of the target's description. While its not expected for citizens to actively seek out these targets, bounty hunters who work with the Empire on jobs will surely enjoy this page.
+
+![](https://github.com/MarkMadness/TheGalacticEmpire-react/blob/main/showcase/2_BountyBoardConcept.jpg)
 
