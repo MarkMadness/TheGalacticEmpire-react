@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </div>
 
-            <div>
+            <div id='top-news'>
                 {/* Top News */}
             </div>
 
@@ -34,7 +34,7 @@ function Home() {
                         <p className='enlist-text'>Ready to join the greatest military the galaxy has ever known. Click on the 
                             button to begin your application for the best military experience in existence!
                         </p>
-                        <button type='button'>Start your Application</button>
+                        <button type='button' className='button'>Start your Application</button>
                         {/* <form>
                             <label for='firstName' className='label-enlist'>First Name:</label>
                             <input type='text' name='firstName' className='input-enlist'></input><br />
@@ -64,7 +64,7 @@ function Home() {
                     <p className='report-text'>Ensure the streets of your city remain safe from crime and rebel
                     terrorists. Report any and all suspicious activity simply by clicking the button below and 
                     make your Emperor proud!</p>
-                    <button type='button' className='report-button'>Report</button>
+                    <button type='button' className='button'>Report</button>
                 </div>
                 
                 <div className='report-right'>

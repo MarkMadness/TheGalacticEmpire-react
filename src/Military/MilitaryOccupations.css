@@ -1,1 +1,68 @@
-/* Code Here */
+html {
+    margin: 0;
+}
+
+body{
+    /* background-color: rgb(71, 71, 71); */
+    background-color: rgb(34, 34, 34);
+    color: white;
+    margin: 0;
+}
+
+#header-section{
+    color: white;
+    /* margin-top: 160px; */
+    padding: 100px 0 20px 0;
+    background-color: rgb(71, 71, 71);
+}
+
+.header-header{
+    font-size: 50pt;
+    font-weight: 800;
+}
+
+.header-text{
+    font-size: 25pt;
+}
+
+.occupation-container{
+    
+}
+
+.occ-body{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(71, 71, 71);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+    .occ-image{
+        height: 600px;
+        width: 464px;
+        border-right: 6px solid rgba(0, 0, 0, 0.7);
+    }
+
+    .occ-image img{
+        height: 600px;
+        width: 464px;
+    }
+
+    .occ-text{
+        padding: 40px;
+    }
+
+        .occ-text h1{
+            font-size: 30pt;
+            text-decoration: underline;
+        }
+
+        .occ-text p{
+            font-size: 20pt;
+        }
