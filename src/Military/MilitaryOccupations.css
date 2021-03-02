@@ -29,10 +29,27 @@ body{
     
 }
 
+.occ-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+    .occ-title h1{
+        margin: 0 300px 0 300px;
+        font-size: 30pt;
+        font-weight: 800;
+    }
+
+.occ-bodies{
+    display: flex;
+    float: center;
+}
+
 .occ-body{
     display: flex;
-    width: 1200px;
     height: 600px;
+    width: 860px;
     background-color: rgb(71, 71, 71);
     margin-left: auto;
     margin-right: auto;
@@ -45,18 +62,37 @@ body{
 
     .occ-image{
         height: 600px;
-        width: 464px;
+        width: 460px;
+        overflow: hidden;
         border-right: 6px solid rgba(0, 0, 0, 0.7);
     }
 
     .occ-image img{
         height: 600px;
-        width: 464px;
+        width: 460px;
     }
 
     .occ-text{
+        width: 400px;
         padding: 40px;
     }
+
+        .occ-text table{
+            height: 100px;
+            background-color: rgb(136, 136, 136);
+            border-spacing: 5px;
+        }
+
+            .occ-text table td{
+                width: 40px;
+            }
+
+            .occ-text table .img img{width:98px;height:94px;}
+
+            .occ-text table .empty{background-color: black;}
+            .occ-text table .blue{background-color: blue;}
+            .occ-text table .red{background-color: red;}
+            .occ-text table .yellow{background-color: yellow;}
 
         .occ-text h1{
             font-size: 30pt;
