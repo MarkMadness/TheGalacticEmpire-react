@@ -28,3 +28,8 @@ The next section I worked on after the homepage was Law and Order. Starting off 
 
 ![](https://github.com/MarkMadness/TheGalacticEmpire-react/blob/main/showcase/2_BountyBoardConcept.jpg)
 
+## Military - Occupations
+
+Here I began formatting the layout for the Military Occupations page. For new, young, and patriotic imperial citizens looking at the opportunities a military career could offer, this is the page to see. This page is full of sections on each rank of the imperial military with an image and a brief description.
+
+![](https://github.com/MarkMadness/TheGalacticEmpire-react/blob/main/showcase/3_MilitaryOccupations.jpg)
