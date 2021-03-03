@@ -10,10 +10,15 @@ function MilitaryOccupations() {
             <div id='header-section'>
                 <h1 className='header-header'>Military Occupations</h1>
                 <p className='header-text'>There are many ranks within our mighty miltary. Explore and see which rank you would seek to ascend to.</p>
-                <div className='buttons-section'>
-                    <button className='button'><a href='top'>Top</a></button>
-                </div>
             </div>
+
+            <div className='buttons-section'>
+                <a className='button' href='#header-section'>Top</a>
+                <a className='button' href='#navy-army'>Navy &amp; Army</a>
+                <a className='button' href='#stormtroopers'>Stormtroopers</a>
+                <a className='button' href='#special'>Special</a>
+            </div>
+
             {/* Start of the Ranks listings */}
             <div className='occupation-container'>
                 <div className='occ-body'>
@@ -50,7 +55,7 @@ function MilitaryOccupations() {
                     </div>
                 </div>
 
-                <div className='occ-title'>
+                <div className='occ-title' id='navy-army'>
                     <h1>Imperial Navy</h1>
                     <h1>Imperial Army</h1>
                 </div>
@@ -882,6 +887,37 @@ function MilitaryOccupations() {
                 </div>
 
                 {/* Stormtroopers */}
+                <div className='occ-title' id='stormtroopers'>
+                    <h1>Stormtroopers</h1>
+                </div>
+
+                <div className='occ-body'>
+                    <div className='occ-image'>
+                        <img src='./images/Stormtrooper_MOprofile.png'/>
+                    </div>
+                    <div className='occ-text'>
+                        <table>
+                            <tr>
+                                <td className='red'></td>
+                                <td className='red'></td>
+                            </tr>
+                            <tr>
+                                <td className='blue'></td>
+                                <td className='blue'></td>
+                            </tr>
+                        </table>
+                        <h1>Stormtrooper</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+                 {/* Special */}
+                 <div className='occ-title' id='special'>
+                    <h1>Special Troopers</h1>
+                </div>
+
                 <div className='occ-body'>
                     <div className='occ-image'>
                         <img src='./images/Stormtrooper_MOprofile.png'/>
