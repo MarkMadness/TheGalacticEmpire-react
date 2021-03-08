@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -125,3 +126,10 @@ body{
         .occ-text p{
             font-size: 20pt;
         }
+
+    .horizontal-line{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 5px solid white;
+    }
