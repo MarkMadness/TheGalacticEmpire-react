@@ -78,12 +78,16 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='yellow'></td>
                                         <td className='yellow'></td>
                                         <td className='yellow'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='blue'></td>
@@ -108,12 +112,16 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='yellow'></td>
                                         <td className='yellow'></td>
                                         <td className='yellow'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='blue'></td>
@@ -140,12 +148,16 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='red'></td>
@@ -170,12 +182,16 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='red'></td>
@@ -202,11 +218,15 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='red'></td>
@@ -230,11 +250,15 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                             <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='red'></td>
@@ -262,8 +286,16 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                     <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
@@ -284,8 +316,16 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                     <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
@@ -311,10 +351,8 @@ function MilitaryOccupations() {
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                        <td className='red'></td>
                                     </tr>
                                     <tr>
-                                        <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
@@ -360,20 +398,13 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+
                                     </tr>
                                 </table>
                                 <h1>Admiral</h1>
@@ -392,10 +423,10 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
                                 <h1>General</h1>
@@ -414,12 +445,12 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
                                 <h1>Vice Admiral</h1>
@@ -437,11 +468,12 @@ function MilitaryOccupations() {
                                 <table>
                                     <tr>
                                         <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+
                                     </tr>
                                 </table>
                                 <h1>Lieutenant General</h1>
@@ -460,20 +492,13 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+
                                     </tr>
                                 </table>
                                 <h1>Rear Admiral</h1>
@@ -492,10 +517,11 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+
                                     </tr>
                                 </table>
                                 <h1>Major General</h1>
@@ -505,8 +531,30 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
-                    {/* Commodore + Brigadier */}
+                    {/* Senior Commodore + Brigadier General */}
                     <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                    </tr>
+                                </table>
+                                <h1>Senior Commodore</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+
                         <div className='occ-body'>
                             <div className='occ-image'>
                                 <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
@@ -516,10 +564,34 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
                                     </tr>
+                                </table>
+                                <h1>Brigadier General</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                     {/* Commodore + High Colonel */}
+                     <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
                                     <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
                                 <h1>Commodore</h1>
@@ -538,54 +610,8 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                    </tr>
-                                </table>
-                                <h1>Brigadier</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Captain Of The Line + High Colonel */}
-                    <div className='occ-bodies'>
-                        <div className='occ-body'>
-                            <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
-                            </div>
-                            <div className='occ-text'>
-                                <table>
-                                    <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                    </tr>
-                                </table>
-                                <h1>Captain of the Line</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>
-
-                        <div className='occ-body'>
-                            <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
-                            </div>
-                            <div className='occ-text'>
-                                <table>
-                                    <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
@@ -597,26 +623,23 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
-                    {/* Captain + Colonel */}
+                    {/* Commander + Colonel */}
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Captain(Navy)_MOprofile.png'/>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
-                                <h1>Captain</h1>
+                                <h1>Commander</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -632,8 +655,7 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
+                                        <td className='red'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
@@ -645,7 +667,7 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
-                    {/* Commander + Lieutenant Colonel */}
+                    {/* Lieutenant Commander + Lieutenant Colonel */}
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
@@ -654,12 +676,11 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
                                 <h1>Commander</h1>
@@ -678,9 +699,8 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                         <td className='blue'></td>
                                     </tr>
                                 </table>
@@ -691,24 +711,23 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
-                    {/* Lieutenant Commander + Major */}
+                    {/* Senior Captain + Major */}
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/LieutenantCommander_MOprofile.jpg'/>
+                                <img src='./images/Captain(Navy)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
                                 </table>
-                                <h1>Lieutenant Commander</h1>
+                                <h1>Senior Captain</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -724,10 +743,9 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
                                 <h1>Major</h1>
@@ -737,24 +755,22 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
-                    {/* Grand Admiral + Grand General */}
+                    {/* Captain + Captain */}
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Lieutenant_MOprofile.png'/>
+                                <img src='./images/Captain(Navy)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='red'></td>
                                     </tr>
                                 </table>
-                                <h1>Lieutenant</h1>
+                                <h1>Captain</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -770,9 +786,7 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
+                                        <td className='red'></td>
                                         <td className='blue'></td>
                                     </tr>
                                 </table>
@@ -783,8 +797,28 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
-                    {/* Sublieutenant + Lieutenant */}
+                    {/* Senior Lieutenant + Senior Lieutenant */}
                     <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                    </tr>
+                                </table>
+                                <h1>Senior Lieutenant</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+
                         <div className='occ-body'>
                             <div className='occ-image'>
                                 <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
@@ -794,13 +828,111 @@ function MilitaryOccupations() {
                                     <tr>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
                                     </tr>
+                                </table>
+                                <h1>Senior Lieutenant</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Lieutenant + Lieutenant */}
+                    <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='red'></td>
+                                    </tr>
+                                </table>
+                                <h1>Lieutenant</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='blue'></td>
+                                    </tr>
+                                </table>
+                                <h1>Lieutenant</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Sublieutenant + Second Lieutenant */}
+                    <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                        <td className='blue'></td>
+                                    </tr>
+                                </table>
+                                <h1>Sub Lieutenant</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                        <td className='red'></td>
+                                    </tr>
+                                </table>
+                                <h1>2nd Lieutenant</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Junior Lieutenant + Junior Lieutenant */}
+                    <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
                                     <tr>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
                                 </table>
-                                <h1>Sublieutenant</h1>
+                                <h1>Junior Lieutenant</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -817,19 +949,15 @@ function MilitaryOccupations() {
                                         <td className='red'></td>
                                         <td className='red'></td>
                                     </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                    </tr>
                                 </table>
-                                <h1>Lieutenant</h1>
+                                <h1>Junior Lieutenant</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
                         </div>
                     </div>
-                    {/* Ensign + Second Lieutenant */}
+                    {/* Ensign + Ensign */}
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
@@ -838,11 +966,6 @@ function MilitaryOccupations() {
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
                                         <td className='blue'></td>
                                     </tr>
                                 </table>
@@ -861,60 +984,9 @@ function MilitaryOccupations() {
                                 <table>
                                     <tr>
                                         <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
                                     </tr>
                                 </table>
-                                <h1>Second Lieutenant</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Midshipman + Officer Candidate */}
-                    <div className='occ-bodies'>
-                        <div className='occ-body'>
-                            <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
-                            </div>
-                            <div className='occ-text'>
-                                <table>
-                                    <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                    </tr>
-                                </table>
-                                <h1>Midshipman</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>
-
-                        <div className='occ-body'>
-                            <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
-                            </div>
-                            <div className='occ-text'>
-                                <table>
-                                    <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
-                                    </tr>
-                                </table>
-                                <h1>Officer Candidate</h1>
+                                <h1>Ensign</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
