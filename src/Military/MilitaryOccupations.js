@@ -9,7 +9,10 @@ import './MilitaryOccupations.css'
                 https://www.deviantart.com/jackaubreysw/art/41st-Elite-Corps-Swamp-Trooper-712468690
                 https://www.deviantart.com/jpc-art/art/McQuarrie-trooper-Propaganda-123791888
                 https://www.pinterest.com/pin/128141551882878775/
-                */}
+
+                https://sites.google.com/site/galacticempiregallery9000/system/app/pages/sitemap/hierarchy
+                
+            */}
 
 function MilitaryOccupations() {
     return (
@@ -341,7 +344,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/FleetAdmiral_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -393,17 +396,20 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Admiral_MOprofile.jpg'/>
+                                <img src='./images/Admiral(Navy)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
+                                        <td rowspan='2' className='silver'></td>
 
                                     </tr>
                                 </table>
@@ -416,7 +422,7 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/General_MOprofile.png'/>
+                                <img src='./images/General(Army)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -557,7 +563,7 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/BrigadierGeneral(Army)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -581,7 +587,7 @@ function MilitaryOccupations() {
                      <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/Commodore(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -627,7 +633,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/Commander(Navy)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -801,7 +807,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/SeniorLieutenant(Navy)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -923,7 +929,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/JuniorLieutenant(Navy)_MOprofile.png'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
