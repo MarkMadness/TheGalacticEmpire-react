@@ -32,9 +32,10 @@ function MilitaryOccupations() {
 
             {/* Start of the Ranks listings */}
             <div className='occupation-container'>
+                {/* The Emperor */}
                 <div className='occ-body'>
                     <div className='occ-image'>
-                        <img src='./images/Emperor_MOprofile.jpg'/>
+                        <img src='./images/MOprofiles/Emperor_MOprofile.jpg'/>
                     </div>
                     <div className='occ-text'>
                         <table>
@@ -48,10 +49,10 @@ function MilitaryOccupations() {
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-                
+                { /* Darth Vader*/}
                 <div className='occ-body'>
                     <div className='occ-image'>
-                        <img src='./images/DarthVader_MOprofile.jpg'/>
+                        <img src='./images/MOprofiles/DarthVader_MOprofile.jpg'/>
                     </div>
                     <div className='occ-text'>
                         <table>
@@ -76,7 +77,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/GrandAdmiral_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/GrandAdmiral(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -110,7 +111,7 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/GrandGeneral_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/GrandAdmiral2(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -146,7 +147,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/GrandMoff_MOprofile.png'/>
+                                <img src='./images/MOprofiles/GrandMoff_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -180,7 +181,7 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/GrandMoff_MOprofile.png'/>
+                                <img src='./images/MOprofiles/GrandMoff_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -216,7 +217,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Moff_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Moff_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -248,7 +249,7 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Moff_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Moff_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                             <table>
@@ -282,17 +283,19 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='blue'></td>
@@ -312,17 +315,19 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/SurfaceMarshal_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='blue'></td>
@@ -344,16 +349,18 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/FleetAdmiral_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/FleetAdmiral_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='blue'></td>
@@ -372,13 +379,15 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                     <tr>
                                         <td className='blue'></td>
@@ -396,7 +405,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Admiral(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Admiral(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -422,17 +431,19 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/General(Army)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/General(Army)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>General</h1>
@@ -446,17 +457,19 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ViceAdmiral_MOprofile.png'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Vice Admiral</h1>
@@ -468,17 +481,19 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
 
                                     </tr>
                                 </table>
@@ -493,18 +508,19 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/RearAdmiral_MOprofile.png'/>
+                                <img src='./images/MOprofiles/RearAdmiral(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
-
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Rear Admiral</h1>
@@ -516,18 +532,19 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
-
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Major General</h1>
@@ -541,17 +558,19 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Senior Commodore</h1>
@@ -563,17 +582,19 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/BrigadierGeneral(Army)_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/BrigadierGeneral(Army)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Brigadier General</h1>
@@ -587,17 +608,19 @@ function MilitaryOccupations() {
                      <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Commodore(Navy)_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Commodore(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Commodore</h1>
@@ -609,17 +632,19 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>High Colonel</h1>
@@ -633,16 +658,18 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Commander(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Commander(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Commander</h1>
@@ -654,16 +681,18 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Colonel_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Colonel_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Colonel</h1>
@@ -677,16 +706,18 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Commander</h1>
@@ -698,16 +729,18 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Lieutenant Colonel</h1>
@@ -721,16 +754,18 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Captain(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Captain(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Senior Captain</h1>
@@ -742,16 +777,18 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Major_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Major_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Major</h1>
@@ -765,15 +802,17 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Captain(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Captain(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Captain</h1>
@@ -785,15 +824,17 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Captain(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Captain(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Captain</h1>
@@ -807,15 +848,17 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/SeniorLieutenant(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/SeniorLieutenant(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Senior Lieutenant</h1>
@@ -827,15 +870,17 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Senior Lieutenant</h1>
@@ -849,14 +894,16 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Lieutenant</h1>
@@ -868,14 +915,16 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Lieutenant</h1>
@@ -889,14 +938,16 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Sub Lieutenant</h1>
@@ -908,14 +959,16 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>2nd Lieutenant</h1>
@@ -929,13 +982,15 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/JuniorLieutenant(Navy)_MOprofile.png'/>
+                                <img src='./images/MOprofiles/JuniorLieutenant(Navy)_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='blue'></td>
                                         <td className='blue'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Junior Lieutenant</h1>
@@ -947,13 +1002,15 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
+                                        <td rowspan='2' className='silver'></td>
                                         <td className='red'></td>
                                         <td className='red'></td>
+                                        <td rowspan='2' className='silver'></td>
                                     </tr>
                                 </table>
                                 <h1>Junior Lieutenant</h1>
@@ -967,7 +1024,7 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -984,7 +1041,7 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/allegra_ames__imperial_lieutenant_by_mauricio_morali-d91rcrh.jpg'/>
+                                <img src='./images/MOprofiles/default_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
@@ -1010,17 +1067,12 @@ function MilitaryOccupations() {
                     {/* Stormtrooper */}
                     <div className='occ-body'>
                         <div className='occ-image'>
-                            <img src='./images/Stormtrooper_MOprofile.jpg'/>
+                            <img src='./images/MOprofiles/Stormtrooper_MOprofile.jpg'/>
                         </div>
                         <div className='occ-text'>
                             <table>
                                 <tr>
-                                    <td className='red'></td>
-                                    <td className='red'></td>
-                                </tr>
-                                <tr>
-                                    <td className='blue'></td>
-                                    <td className='blue'></td>
+                                    <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                 </tr>
                             </table>
                             <h1>Stormtrooper</h1>
@@ -1029,21 +1081,17 @@ function MilitaryOccupations() {
                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
-                    {/* Coastal Defener Trooper + Cold Weather Assault Stormtrooper */}
+                    {/* Coastal Defender Trooper + Cold Weather Assault Stormtrooper */}
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/CoastalDefenderTrooper_MOprofile.png'/>
+
+                                <img src='./images/MOprofiles/CoastalDefenderTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Coastal Defender Stormtrooper</h1>
@@ -1055,17 +1103,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ColdWeatherAssaultStormtrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/ColdWeatherAssaultStormtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Cold Weather Assault Stormtrooper</h1>
@@ -1079,17 +1122,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/CrimsonStormtrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/CrimsonStormtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1> Crimson Stormtrooper</h1>
@@ -1101,17 +1139,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Flametrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Flametrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Flametrooper</h1>
@@ -1125,17 +1158,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ForestTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/ForestTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Forest Trooper</h1>
@@ -1147,17 +1175,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/IncineratorTrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/IncineratorTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Incinerator Trooper</h1>
@@ -1172,17 +1195,12 @@ function MilitaryOccupations() {
                     {/* Heavy Weapons Stormtrooper */}
                     <div className='occ-body'>
                         <div className='occ-image'>
-                            <img src='./images/HeavyWeaponsStormtrooper_MOprofile.jpg'/>
+                            <img src='./images/MOprofiles/HeavyWeaponsStormtrooper_MOprofile.jpg'/>
                         </div>
                         <div className='occ-text'>
                             <table>
                                 <tr>
-                                    <td className='red'></td>
-                                    <td className='red'></td>
-                                </tr>
-                                <tr>
-                                    <td className='blue'></td>
-                                    <td className='blue'></td>
+                                    <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                 </tr>
                             </table>
                             <h1>Heavy Weapons Stormtrooper</h1>
@@ -1195,17 +1213,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/HeavySandtrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/HeavySandtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Heavy Sandtrooper</h1>
@@ -1217,17 +1230,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/HeavyShoretrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/HeavyShoretrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Heavy Shoretrooper</h1>
@@ -1240,17 +1248,12 @@ function MilitaryOccupations() {
                     {/* Heavy Snowtrooper */}
                     <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/HeavySnowtrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/HeavySnowtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Heavy Snowtrooper</h1>
@@ -1268,17 +1271,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ImperialHeavyTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/ImperialHeavyTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Imperial Heavy Trooper</h1>
@@ -1290,17 +1288,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ImperialShockTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/ImperialShockTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Imperial Shock Trooper</h1>
@@ -1318,17 +1311,12 @@ function MilitaryOccupations() {
                     {/* Jumptrooper */}
                     <div className='occ-body'>
                         <div className='occ-image'>
-                            <img src='./images/Jumptrooper_MOprofile.png'/>
+                            <img src='./images/MOprofiles/Jumptrooper_MOprofile.jpg'/>
                         </div>
                         <div className='occ-text'>
                             <table>
                                 <tr>
-                                    <td className='red'></td>
-                                    <td className='red'></td>
-                                </tr>
-                                <tr>
-                                    <td className='blue'></td>
-                                    <td className='blue'></td>
+                                    <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                 </tr>
                             </table>
                             <h1>Jumptrooper</h1>
@@ -1341,17 +1329,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ArcticJumptrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/ArcticJumptrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Arctic Jumptrooper</h1>
@@ -1363,17 +1346,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/DesertJumptrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/DesertJumptrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Desert Jumptrooper</h1>
@@ -1386,17 +1364,12 @@ function MilitaryOccupations() {
                     {/* Forest Jumptrooper */}
                     <div className='occ-body'>
                         <div className='occ-image'>
-                            <img src='./images/ForestJumptrooper_MOprofile.jpg'/>
+                            <img src='./images/MOprofiles/ForestJumptrooper_MOprofile.jpg'/>
                         </div>
                         <div className='occ-text'>
                             <table>
                                 <tr>
-                                    <td className='red'></td>
-                                    <td className='red'></td>
-                                </tr>
-                                <tr>
-                                    <td className='blue'></td>
-                                    <td className='blue'></td>
+                                    <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                 </tr>
                             </table>
                             <h1>Forest Jumptrooper</h1>
@@ -1414,17 +1387,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Stormtrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Lavatrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Lava Trooper</h1>
@@ -1436,17 +1404,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/MagmaTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/MagmaTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Magma Trooper</h1>
@@ -1460,17 +1423,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/MortarStormtrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/MortarStormtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Mortar Stormtrooper</h1>
@@ -1482,17 +1440,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/PatrolTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/PatrolTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Patrol Trooper</h1>
@@ -1506,17 +1459,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/RangeTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/RangeTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Range Trooper</h1>
@@ -1528,17 +1476,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/RiotControlStormtrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/RiotControlStormtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Riot Control Stormtrooper</h1>
@@ -1552,17 +1495,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Sandtrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Sandtrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Sandtrooper</h1>
@@ -1574,17 +1512,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/DewbackTrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/DewbackTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Dewback Trooper</h1>
@@ -1598,17 +1531,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ScoutTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/ScoutTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Scout Trooper</h1>
@@ -1620,17 +1548,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/SniperTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/SniperTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Sniper Trooper(Imperial Sharpshooter)</h1>
@@ -1644,17 +1567,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Seatrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Seatrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Seatrooper</h1>
@@ -1666,17 +1584,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/ShadowTrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/ShadowTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Shadow Trooper</h1>
@@ -1690,17 +1603,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Spacetrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Spacetrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Spacetrooper</h1>
@@ -1712,17 +1620,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/StormtrooperGrenadier_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/StormtrooperGrenadier_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Stormtrooper Grenadier</h1>
@@ -1732,54 +1635,45 @@ function MilitaryOccupations() {
                             </div>
                         </div>
                     </div>
+                    {/* Swamptrooper + WetWeatherGearStormtrooper */}
+                    <div className='occ-bodies'>
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/MOprofiles/Swamptrooper_MOprofile.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
+                                    </tr>
+                                </table>
+                                <h1>Swamptrooper</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+
+                        <div className='occ-body'>
+                            <div className='occ-image'>
+                                <img src='./images/MOprofiles/WetWeatherGearStormtrooper_MOprofile.jpg'/>
+                            </div>
+                            <div className='occ-text'>
+                                <table>
+                                    <tr>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
+                                    </tr>
+                                </table>
+                                <h1>Wet-weather Gear Stormtrooper</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 
-                </div>
-
-                <div className='occ-bodies'>
-                    <div className='occ-body'>
-                        <div className='occ-image'>
-                            <img src='./images/Swamptrooper_MOprofile.png'/>
-                        </div>
-                        <div className='occ-text'>
-                            <table>
-                                <tr>
-                                    <td className='red'></td>
-                                    <td className='red'></td>
-                                </tr>
-                                <tr>
-                                    <td className='blue'></td>
-                                    <td className='blue'></td>
-                                </tr>
-                            </table>
-                            <h1>Swamptrooper</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
-                    <div className='occ-body'>
-                        <div className='occ-image'>
-                            <img src='./images/WetWeatherGearStormtrooper_MOprofile.png'/>
-                        </div>
-                        <div className='occ-text'>
-                            <table>
-                                <tr>
-                                    <td className='red'></td>
-                                    <td className='red'></td>
-                                </tr>
-                                <tr>
-                                    <td className='blue'></td>
-                                    <td className='blue'></td>
-                                </tr>
-                            </table>
-                            <h1>Wet-weather Gear Stormtrooper</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                </div>
 {/* ============================================================================ */}
                  {/* Special */}
                  <div className='occ-title' id='special'>
@@ -1791,17 +1685,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/DarkTrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/DarkTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Dark Trooper</h1>
@@ -1813,17 +1702,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Purgetrooper_MOprofile.png'/>
+                                <img src='./images/MOprofiles/Purgetrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Purge Trooper</h1>
@@ -1837,17 +1721,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/SCARTrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/StormCommando_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Storm Commando</h1>
@@ -1859,17 +1738,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/DeathTrooper_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/DeathTrooper_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Death Trooper</h1>
@@ -1883,17 +1757,12 @@ function MilitaryOccupations() {
                     <div className='occ-bodies'>
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/Inquisitor2_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/Inquisitor_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Inquisitor</h1>
@@ -1905,17 +1774,12 @@ function MilitaryOccupations() {
 
                         <div className='occ-body'>
                             <div className='occ-image'>
-                                <img src='./images/RoyalGuard_MOprofile.jpg'/>
+                                <img src='./images/MOprofiles/RoyalGuard_MOprofile.jpg'/>
                             </div>
                             <div className='occ-text'>
                                 <table>
                                     <tr>
-                                        <td className='red'></td>
-                                        <td className='red'></td>
-                                    </tr>
-                                    <tr>
-                                        <td className='blue'></td>
-                                        <td className='blue'></td>
+                                        <td className='img'><img src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </table>
                                 <h1>Royal Guard</h1>
