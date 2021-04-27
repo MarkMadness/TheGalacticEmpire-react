@@ -53,6 +53,18 @@ body{
     
 }
 
+    .section{
+        
+    }
+
+    /* .top-section, .army_navy-section, .army_navy_intelligence-section, .stormtrooper-section, .special-section {
+        opacity: 0;
+    } */
+
+    .section-active{
+        opacity: 100;
+    }
+
 .occ-title{
     display: flex;
     justify-content: center;
