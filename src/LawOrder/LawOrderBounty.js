@@ -1,10 +1,12 @@
 import React from 'react'
 import './LawOrder.css'
 import Bounty from './Bounty'
+import MainHeader from '../MainHeader'
 
 function LawOrder() {
     return (
         <div>
+            <MainHeader />
             <h1>Law &amp; Order</h1>
             <h2>Bounty Board</h2>
         

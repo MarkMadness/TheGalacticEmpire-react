@@ -5,7 +5,7 @@ function Bounty() {
     return (
         <div class='bounty-container'>
             <div class='image-container'>
-                <img src='./images/placeholder_200x200.jpg'></img>
+                <img src='./images/placeholder_200x200.jpg' alt=""></img>
             </div>
             <div class='reward'>
                 <p>500,000</p>
