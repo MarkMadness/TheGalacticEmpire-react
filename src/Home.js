@@ -19,8 +19,42 @@ function Home() {
                 </div>
             </div>
 
+            {/* Top News */}
             <div id='top-news'>
-                {/* Top News */}
+                <div className='row'>
+                    <div className='column'>
+                        <div className='col-title'>Title of News Article</div>
+                        <img className='col-img' src='./images/News/NewsImageTemplate.jpg' />
+                        <div className='col-text'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div className='column'>
+                        <div className='col-title'>Title of News Article</div>
+                        <img className='col-img' src='./images/News/NewsImageTemplate.jpg' />
+                        <div className='col-text'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div className='column'>
+                        <div className='col-title'>Title of News Article</div>
+                        <img className='col-img' src='./images/News/NewsImageTemplate.jpg' />
+                        <div className='col-text'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div className='column'>
+                        <div className='col-title'>Title of News Article</div>
+                        <img className='col-img' src='./images/News/NewsImageTemplate.jpg' />
+                        <div className='col-text'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div id='enlist'>
