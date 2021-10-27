@@ -31,22 +31,22 @@ import './MilitaryOccupations.css'
 // =========================================== 
 // ===========================================
 
-function displayBranch() {
-    // set all sections to remove active in order to reset
+// function displayBranch() {
+//     // set all sections to remove active in order to reset
 
-    // gets the container elements for the buttons
-    let btnContainer = document.getElementById('buttons-section');
-    // gets all the button elements
-    let btns = btnContainer.getElementsByClassName("button");
-    // Take the found section and add an active class to make it visible
-    for (let i = 0; i < btns.length; i++) {
-        document.addEventListener("click", function() {
-          let current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-        });
-      }
-}
+//     // gets the container elements for the buttons
+//     let btnContainer = document.getElementById('buttons-section');
+//     // gets all the button elements
+//     let btns = btnContainer.getElementsByClassName("button");
+//     // Take the found section and add an active class to make it visible
+//     for (let i = 0; i < btns.length; i++) {
+//         document.addEventListener("click", function() {
+//           let current = document.getElementsByClassName("active");
+//           current[0].className = current[0].className.replace(" active", "");
+//           this.className += " active";
+//         });
+//       }
+// }
 
 // initially sets the top section to active onload
 // document.getElementById('top-section').onload = displayBranch('top-section');
@@ -61,14 +61,15 @@ function MilitaryOccupations() {
             </div>
 
             <div id='buttons-section'>
-                <a className='button active' href='#header-section' onClick={()=>this.displayBranch()}>Top</a>
-                <a className='button' href='#navy-army' onClick={()=>this.displayBranch()}>Navy &amp; Army</a>
-                <a className='button' href='#navy-army-intelligence' onClick={()=>this.displayBranch()}>Navy &amp; Army Intelligence</a>
-                <a className='button' href='#ancillary_branch' onClick={()=>this.displayBranch()}>Ancillary Branch</a>
-                <a className='button' href='#stormtroopers' onClick={()=>this.displayBranch()}>Stormtroopers</a>
-                <a className='button' href='#special' onClick={()=>this.displayBranch()}>Special</a>
+                <a className='button active' href='#header-section'>Top</a>
+                <a className='button' href='#navy-army'>Navy &amp; Army</a>
+                <a className='button' href='#navy-army-intelligence'>Navy &amp; Army Intelligence</a>
+                <a className='button' href='#ancillary_branch'>Ancillary Branch</a>
+                <a className='button' href='#stormtroopers'>Stormtroopers</a>
+                <a className='button' href='#special'>Special</a>
             </div>
             {/* 
+            onClick={()=>this.displayBranch()}
             onClick='displayBranch("top-section")'
             onClick='displayBranch("army_navy-section")'
             onClick='displayBranch("army_navy_intelligence-section")'
@@ -90,17 +91,18 @@ function MilitaryOccupations() {
                             <img alt="" alt=""  src='./images/MOprofiles/Emperor_MOprofile.jpg'/>
                         </div>
                         <div className='occ-text'>
-                            <table>
+                            {/* <table>
                                 <tbody>
                                     <tr>
                                         <td className='img'><img alt="" src='./images/Galactic_Empire_Emblem.png' /></td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table> */}
                             <h1>The Emperor</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>The supreme leader of the Imperial Galactic Empire. Emperor Sheev Palpatine led the people during the former 
+                                Republic and protected the galaxy after The Clone Wars with the formation of the Galactic Empire. The future 
+                                of the galaxy rests on his shoulders and we are blessed to have him lead us there. Long live the Empire! Long 
+                                live the Emperor!</p>
                         </div>
                     </div>
                     { /* Darth Vader*/}
@@ -154,9 +156,10 @@ function MilitaryOccupations() {
                                         </tbody>
                                     </table>
                                     <h1>Grand Admiral</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Senior rank of the Imperial Navy. To be given the title is one of the greatest honors 
+                                        a person can be given. Such a person has command of a fleet and has the authority to 
+                                        issue the status of a most wanted bounty.
+                                    </p>
                                 </div>
                             </div>
 
@@ -190,9 +193,9 @@ function MilitaryOccupations() {
                                         </tbody>
                                     </table>
                                     <h1>Grand General</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Senior rank of the Imperial Army. A man with such a rank has enough authority to issue 
+                                        the status of a most wanted bounty and has direct control over the Imperial Army second 
+                                        to the Emperor himself.</p>
                                 </div>
                             </div>
                         </div>
@@ -227,9 +230,9 @@ function MilitaryOccupations() {
                                 </tbody>
                             </table>
                             <h1>Grand Moff</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Political title in the Empire's hierarchy. Grand Moffs act as governors of oversectors, grouped star systems and 
+                                sectors that demonstrates signs of unrest and disorder. They have a large amount of power to subdue insurrectionist 
+                                regions, and as such had the authority to deploy and command Imperial Military resources.</p>
                         </div>
                     </div>
                     {/* Moff */}
@@ -261,9 +264,8 @@ function MilitaryOccupations() {
                                 </tbody>
                             </table>
                             <h1>Moff</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Rank held by sector governors of the galaxy. Moffs are in command of a sector group 
+                                that contains assets of Imperial military and intelligence.</p>
                         </div>
                     </div>
                     {/* Governor + Fleet Commander */}
